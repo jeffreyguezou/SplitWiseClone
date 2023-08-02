@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoSection{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logInBtn{
+    padding: 0.75rem 1.25rem;
+    color: #1CC29F;
+    border: 0;
+    box-shadow: none;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    font-size: 0.875rem;
+}
