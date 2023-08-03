@@ -6,7 +6,7 @@ const Header = () => {
         <div className={classes.header}>
             <div className={classes.logoSection}>
                 <img alt='logo' src={logo}></img>
-                <span>SplitWise Clone</span>
+                <span className={classes.logoName}>SplitWise Clone</span>
             </div>
             <div>
                 <button className={classes.logInBtn}>Log In</button>

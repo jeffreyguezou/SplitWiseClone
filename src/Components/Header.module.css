@@ -1,16 +1,62 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     padding: 1.25rem 2rem;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1280px;
+   
 }
-.logoSection{
+@media screen and (max-width:1280px) {
+    .header {
+        max-width: 1024px;
+        width: 83%
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .header {
+        max-width: 996px;
+        width: 83%
+    }
+}
+
+@media screen and (max-width:996px) {
+    .header {
+        max-width: 768px;
+        width: 83%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        max-width: 640px;
+        width: 83%
+    }
+}
+@media screen and (max-width:640px) {
+    .header {
+        max-width: 480px;
+        width: 83%
+    }    
+    .logoName{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.logoSection {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.logInBtn{
+
+.logInBtn {
     padding: 0.75rem 1.25rem;
     color: #1CC29F;
     border: 0;
