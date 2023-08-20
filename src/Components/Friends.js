@@ -16,7 +16,7 @@ const friends = [
 
 const Friends = () => {
   return friends.map((friend) => {
-    return <FriendDetail friend={friend} />;
+    return <FriendDetail key={friend.name} friend={friend} />;
   });
 };
 export default Friends;

@@ -1,15 +1,31 @@
+import HoverCard from "../UI/HoverCard";
 import Friends from "./Friends";
 import InviteBox from "./Invitebox";
 
 const LeftSideBar = () => {
   return (
     <div className="leftSideBar">
-      <span>DashBoard</span>
-      <span>Recent Activity</span>
+      <HoverCard>
+        <span>DashBoard</span>
+      </HoverCard>
+
+      <HoverCard>
+        <span>Recent Activity</span>
+      </HoverCard>
+
       <input type="text"></input>
-      <span>All Expenses</span>
-      <span>Groups</span>
-      <span>Friends</span>
+      <HoverCard>
+        <span>All Expenses</span>
+      </HoverCard>
+
+      <HoverCard>
+        <div className="leftHeader">Groups</div>
+      </HoverCard>
+
+      <HoverCard>
+        <div className="leftHeader">Friends</div>
+      </HoverCard>
+
       <Friends />
       <span>Invite</span>
       <InviteBox />
