@@ -13,7 +13,7 @@
 .dashboard {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100%;
 }
 .dashHeader {
   display: flex;
@@ -96,7 +96,7 @@
 .leftHeader {
   position: relative;
   margin-left: 5px;
-  background: #f6f6f6;
+  background: #eeeeee;
   color: #ccc;
   font-size: 11px;
   margin-top: 5px;
@@ -123,9 +123,16 @@
 }
 .rightSideBar {
   padding-left: 3%;
+  display: flex;
+  flex-direction: column;
 }
 .rightHeader {
   text-transform: uppercase;
   font-size: 13px;
   line-height: 24px;
+}
+.dashboardBalance {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
