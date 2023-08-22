@@ -24,6 +24,7 @@ const OweBalance = () => {
       {oweBalanceDetails.map((oweBalance) => {
         return (
           <BalanceDetails
+            key={oweBalance.name}
             name={oweBalance.name}
             amount={oweBalance.owes}
             isYouOwe={true}
