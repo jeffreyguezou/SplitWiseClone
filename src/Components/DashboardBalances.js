@@ -4,10 +4,10 @@ import OwedBalance from "./OwedBalance";
 const DashboardBalances = () => {
   return (
     <div className="dashboardBalance">
-      <div>
+      <div className="oweDash">
         <OweBalance />
       </div>
-      <div>
+      <div className="owedDash">
         <OwedBalance />
       </div>
     </div>

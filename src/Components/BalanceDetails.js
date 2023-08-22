@@ -3,21 +3,17 @@ const BalanceDetails = (props) => {
     <div>
       <span>
         {props.isYouOwe ?? (
-          <div>
-            <span>
-              You owe {props.name}{" "}
-              <span className="amount"> {props.amount}</span>
-            </span>
+          <div className="oweDetail">
+            <div className="oweUser">{props.name} </div>
+            <div className="amount">You owe Rs.{props.amount}</div>
           </div>
         )}
       </span>
       <span>
         {props.isYouOwed ?? (
-          <div>
-            <span>
-              {props.name} owes you{" "}
-              <span className="amount"> {props.amount}</span>
-            </span>
+          <div className="oweDetail">
+            <div className="oweUser">{props.name} </div>
+            <div className="amount">owes you Rs.{props.amount}</div>{" "}
           </div>
         )}
       </span>

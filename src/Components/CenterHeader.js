@@ -4,7 +4,7 @@ const CenterHeader = () => {
   return (
     <>
       <div className="dashHeader">
-        <div>Dashboard</div>
+        <div className="dash">Dashboard</div>
         <div className="buttonSection">
           <button className="addExpenseBtn"> Add an expense</button>
           <button className="settleBtn"> Settle expense</button>

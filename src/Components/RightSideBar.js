@@ -6,10 +6,10 @@ const RightSideBar = () => {
       <div>
         <img style={{ width: "128px" }} src={logo} alt="logo"></img>
       </div>
-      <text className="text">
+      <span className="text">
         Become batman and <br />
         fight evil to save Gotham city
-      </text>
+      </span>
       <button style={{ marginTop: "5px" }} className="addExpenseBtn">
         Learn More
       </button>

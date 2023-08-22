@@ -1,4 +1,5 @@
 import HoverCard from "../UI/HoverCard";
+import SMButton from "../UI/SMButton";
 import Friends from "./Friends";
 import InviteBox from "./Invitebox";
 
@@ -29,6 +30,10 @@ const LeftSideBar = () => {
       <Friends />
       <span>Invite</span>
       <InviteBox />
+      <div className="btnSection">
+        <SMButton BtnType="FB" />
+        <SMButton BtnType="Twitter" />
+      </div>
     </div>
   );
 };
