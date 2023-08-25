@@ -2,7 +2,7 @@ import HoverCard from "../UI/HoverCard";
 import SMButton from "../UI/SMButton";
 import Friends from "./Friends";
 import InviteBox from "./Invitebox";
-
+import { BsSearch } from "react-icons/bs";
 const LeftSideBar = () => {
   return (
     <div className="leftSideBar">
@@ -13,8 +13,12 @@ const LeftSideBar = () => {
       <HoverCard>
         <span>Recent Activity</span>
       </HoverCard>
-
-      <input type="text"></input>
+      <HoverCard>
+        <span className="searchIcon">
+          <BsSearch />
+        </span>
+        <input className="searchInput" type="text"></input>
+      </HoverCard>
       <HoverCard>
         <span>All Expenses</span>
       </HoverCard>
