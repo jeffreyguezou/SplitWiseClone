@@ -2,7 +2,6 @@
   background-color: #f5f6f6;
   height: calc(100vh - 88px);
   display: flex;
-  width: 83%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,6 +32,10 @@
   font-size: 0.875rem;
   font-weight: bold;
   cursor: pointer;
+}
+.featuresSection {
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 1024px) {
   .mainTextContainer {
