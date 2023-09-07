@@ -1,5 +1,6 @@
 import CoreFeatures from "./CoreFeatures";
-const features = [
+import ProFeatures from "./ProFeatures";
+const featuresCore = [
   "Add groups and friends",
   "Split expenses",
   "record debts",
@@ -18,13 +19,30 @@ const features = [
   "100+ currencies",
   "Payment integrations",
 ];
+const featuresPro = [
+  "A totally ad-free experience",
+  "Currency conversion",
+  "Receipt scanning",
+  "Itemization",
+  "Charts and graphs",
+  "Expense search",
+  "Save default splits",
+  "Early access to new features",
+];
 const CoreAndPro = () => {
   return (
     <div>
-      <span>The Whole Nine Yards</span>
       <div>
-        {features.map((feature) => {
+        <span>The Whole Nine Yards</span>
+      </div>
+      <div>
+        {featuresCore.map((feature) => {
           return <CoreFeatures featureName={feature} />;
+        })}
+      </div>
+      <div>
+        {featuresPro.map((feature) => {
+          return <ProFeatures featureName={feature} />;
         })}
       </div>
     </div>

@@ -1,8 +1,8 @@
-import { GrDiamond } from "react-icons/gr";
+import { BsDiamond } from "react-icons/bs";
 const CoreFeatures = (props) => {
   return (
     <div>
-      <GrDiamond style={{ color: "#318970" }} />
+      <BsDiamond style={{ color: "#318970" }} />
       <span>{props.featureName}</span>
     </div>
   );
