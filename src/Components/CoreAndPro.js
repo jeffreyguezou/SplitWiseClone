@@ -31,8 +31,8 @@ const featuresPro = [
 ];
 const CoreAndPro = () => {
   return (
-    <div>
-      <div>
+    <div className="featuresTab">
+      <div className="title">
         <span>The Whole Nine Yards</span>
       </div>
       <div>
