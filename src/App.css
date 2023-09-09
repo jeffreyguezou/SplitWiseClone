@@ -282,3 +282,28 @@
   font-weight: bold;
   cursor: pointer;
 }
+.featuresTab {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.nineYardsTitle {
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  font-weight: 700;
+}
+.featureArea {
+  display: flex;
+  height: 25px;
+  align-items: center;
+  gap: 5px;
+}
+
+.coreFeatures {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  flex-wrap: wrap;
+  gap: 10px;
+}

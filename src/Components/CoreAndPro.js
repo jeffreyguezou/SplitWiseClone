@@ -31,21 +31,23 @@ const featuresPro = [
 ];
 const CoreAndPro = () => {
   return (
-    <div className="featuresTab">
-      <div className="title">
+    <>
+      <div className="nineYardsTitle">
         <span>The Whole Nine Yards</span>
       </div>
-      <div>
-        {featuresCore.map((feature) => {
-          return <CoreFeatures featureName={feature} />;
-        })}
+      <div className="featuresTab">
+        <div className="coreFeatures">
+          {featuresCore.map((feature) => {
+            return <CoreFeatures featureName={feature} />;
+          })}
+        </div>
+        <div className="coreFeatures">
+          {featuresPro.map((feature) => {
+            return <ProFeatures featureName={feature} />;
+          })}
+        </div>
       </div>
-      <div>
-        {featuresPro.map((feature) => {
-          return <ProFeatures featureName={feature} />;
-        })}
-      </div>
-    </div>
+    </>
   );
 };
 export default CoreAndPro;
