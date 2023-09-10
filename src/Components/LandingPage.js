@@ -1,4 +1,5 @@
 import CoreAndPro from "./CoreAndPro";
+import Footer from "./Footer/Footer";
 import GetProSection from "./GetProSection";
 import Header from "./Header";
 import MainSection from "./MainSection";
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <GetProSection />
       <CoreAndPro />
       <ReviewSection />
+      <Footer />
     </div>
   );
 };

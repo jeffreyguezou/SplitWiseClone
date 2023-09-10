@@ -311,6 +311,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  padding: 10% 10% 0 10%;
 }
 
 .reviewCard {
@@ -335,4 +336,23 @@
 .reviewer {
   font-size: 1.125rem;
   font-style: italic;
+}
+.footer {
+  display: flex;
+  padding: 10%;
+}
+.footerOptions {
+  display: flex;
+  flex-direction: column;
+  color: #52595f;
+  padding-left: 2rem;
+}
+.splitwise {
+  color: #1cc29f;
+}
+.account {
+  color: #f67240;
+}
+.more {
+  color: #333333;
 }
