@@ -9,8 +9,16 @@ const MainSection = () => {
       <div className={classes.mainSection}>
         <div className={classes.mainTextContainer}>
           <div className={classes.MainTextHeader}>
-            <span>less stress when sharing your expenses </span>
-            <span>with anyone</span>
+            <span>
+              less stress when sharing your expenses
+              <br />
+            </span>
+            <motion.span
+              animate={{ color: ["green", "red", "blue", "purple"] }}
+              transition={{ duration: 2, delay: 2, repeat: Infinity }}
+            >
+              with anyone
+            </motion.span>
           </div>
           <div className={classes.MainTextLogoSection}>
             <BsAirplane style={{ color: "green" }} />
