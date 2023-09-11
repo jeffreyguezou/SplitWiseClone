@@ -8,7 +8,7 @@ const Maincard = (props) => {
         <span>{props.description}</span>
       </div>
       <div>
-        <img alt="featureImg" src={props.imgSrc}></img>
+        <img className="mainImg" alt="featureImg" src={props.imgSrc}></img>
       </div>
     </div>
   );

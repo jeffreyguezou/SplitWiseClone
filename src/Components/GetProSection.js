@@ -21,7 +21,7 @@ const GetProSection = () => {
           Sign Up
         </motion.button>
       </div>
-      <img src={prosection} alt="getpro"></img>
+      <img className="mainImg" src={prosection} alt="getpro"></img>
     </div>
   );
 };

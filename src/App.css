@@ -262,6 +262,8 @@
 .proSection {
   display: flex;
   background-color: #8659ca;
+  align-items: flex-end;
+  padding-right: 10%;
 }
 .proText {
   width: 50%;
@@ -286,6 +288,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5%;
+  flex-wrap: wrap;
 }
 .nineYardsTitle {
   text-align: center;
@@ -312,6 +315,7 @@
   flex-wrap: wrap;
   gap: 15px;
   padding: 10% 10% 0 10%;
+  justify-content: center;
 }
 
 .reviewCard {
@@ -346,6 +350,11 @@
   flex-direction: column;
   color: #52595f;
   padding-left: 2rem;
+  padding-right: 2rem;
+}
+.footerOptions:nth-of-type(2) {
+  border-left: 1px solid #52595f;
+  border-right: 1px solid #52595f;
 }
 .splitwise {
   color: #1cc29f;
@@ -355,4 +364,8 @@
 }
 .more {
   color: #333333;
+}
+.mainImg {
+  height: 450px;
+  width: 300px;
 }
